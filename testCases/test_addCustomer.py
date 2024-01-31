@@ -36,12 +36,10 @@ class Test_0003_AddCustomer():
         self.email = random_generator() + "@gmail.com"
         self.addCust.setEmail(self.email)
         self.addCust.setPassword("test123")
-        self.addCust.setCustomerRoles()
-        self.addCust.managerVendor("Vendor 2")
-        self.addCust.setGender("Male")
         self.addCust.setFirstName("Himanshu")
         self.addCust.setLastName("Agarwal")
-        self.addCust.setCustomerRoles()
+        self.addCust.setGender("Male")
+        self.addCust.managerVendor("Vendor 2")
         self.addCust.adminComment("Testing Application")
         self.addCust.clickOnSave()
 

@@ -36,7 +36,6 @@ class Test_001_Login:
         self.lp.setUserName(self.username)
         self.lp.setPassword(self.password)
         self.lp.clickLogin()
-        print ("testing test_login newwwwwwwwww" )
         act_title = self.driver.title
         self.driver.close()
 
